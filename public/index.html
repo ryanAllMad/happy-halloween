@@ -38,6 +38,9 @@
 <script type="text/javascript">
   window.addEventListener('scroll', () => {
     audio = document.querySelector('audio')
+    if(audio.paused) {
+      return
+    }
     audio.play()
   })
 </script>
