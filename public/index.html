@@ -36,12 +36,13 @@
       <source src="./halloween.m4a" type="audio/mpeg" />
       </audio>
 <script type="text/javascript">
-  window.addEventListener('scroll', () => {
+  window.addEventListener('click', () => {
     audio = document.querySelector('audio')
     if(audio.paused) {
-      return
-    }
+      audio.paused
+    } else {
     audio.play()
+  }
   })
 </script>
     <!--
