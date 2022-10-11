@@ -29,7 +29,7 @@ function App() {
       <div className='partiers' onClick={createNewSkeleton}>
       <div className='spooky'>
         <h1>Happy Halloween!</h1>
-        <p style={{fontFamily: 'roboto', color: 'white', textAlign: 'center', textShadow: 'none', backgroundColor: '#000000dd'}}>Click around to have a party, scroll to play music.</p>
+        <p style={{fontFamily: 'roboto', color: 'white', textAlign: 'center', textShadow: 'none', backgroundColor: '#000000dd'}}>Click around to have a party.</p>
         </div>
       </div>
       </Tooltip>
