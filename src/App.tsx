@@ -25,12 +25,15 @@ function App() {
   }
   return (
     <div className="App">
-      <Tooltip title="Add Party Goers by Clicking in this top box" followCursor arrow>
+      <Tooltip disableFocusListener title="Add Party Goers by Clicking in this top box" followCursor arrow>
       <div className='partiers' onClick={createNewSkeleton}>
-      <div className='spooky'><h1>Happy Halloween!</h1></div>
+      <div className='spooky'>
+        <h1>Happy Halloween!</h1>
+        <p style={{fontFamily: 'roboto', color: 'white', textAlign: 'center', textShadow: 'none', backgroundColor: '#000000dd'}}>Click around to have a party, scroll to play music.</p>
+        </div>
       </div>
       </Tooltip>
-      <Tooltip title="Decorate your graveyard by Clicking in this bottom box" followCursor arrow>
+      <Tooltip disableFocusListener title="Decorate your graveyard by Clicking in this bottom box" followCursor arrow>
       <div className="graveyard" onClick={addGraveyard}>
       </div>
       </Tooltip>
