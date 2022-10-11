@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/happy-halloween/static/css/main.e350ec09.css",
-    "main.js": "/happy-halloween/static/js/main.8bf5e4e2.js",
+    "main.js": "/happy-halloween/static/js/main.e0d1daf1.js",
     "static/js/787.4852bc98.chunk.js": "/happy-halloween/static/js/787.4852bc98.chunk.js",
     "static/media/graveyard.jpg": "/happy-halloween/static/media/graveyard.373c72122667009091dd.jpg",
     "static/media/roboto-all-700-normal.woff": "/happy-halloween/static/media/roboto-all-700-normal.a457fde362a540fcadff.woff",
@@ -23,11 +23,11 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/happy-halloween/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/happy-halloween/index.html",
     "main.e350ec09.css.map": "/happy-halloween/static/css/main.e350ec09.css.map",
-    "main.8bf5e4e2.js.map": "/happy-halloween/static/js/main.8bf5e4e2.js.map",
+    "main.e0d1daf1.js.map": "/happy-halloween/static/js/main.e0d1daf1.js.map",
     "787.4852bc98.chunk.js.map": "/happy-halloween/static/js/787.4852bc98.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e350ec09.css",
-    "static/js/main.8bf5e4e2.js"
+    "static/js/main.e0d1daf1.js"
   ]
 }
