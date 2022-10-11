@@ -1,0 +1,94 @@
+@keyframes openCard {
+  0% {
+    scale: 0;
+    opacity: 0;
+  }
+  100% {
+    scale: 1;
+    opacity: 1;
+  }
+  
+}
+@keyframes slideUp {
+  0% {
+    bottom: 0;
+  }
+  100% {
+    bottom: 175px;
+  }
+}
+@keyframes xPand {
+  0% {
+    scale: 0;
+    opacity: 0;
+  }
+  50% {
+    scale: 1.5;
+    opacity: 50%;
+  }
+  100% {
+    scale: 1;
+    opacity: 1;
+  }
+}
+@keyframes waveIn {
+  0% {
+    filter: blur(25px);
+  }
+  100% {
+    filter:blur(0)
+  }
+  
+}
+
+.App {
+  font-family: 'Roboto', sans-serif;
+  background: url('./graveyard.jpg') 0 0 no-repeat;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  z-index: 0;
+  animation: openCard 2s ease;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.App > div {
+  height: 50%;
+}
+
+.graveyard {
+  border-radius: 100%;
+  border-top: 2px solid black;
+}
+.skeleton-dance {
+  background: url('./skeleton-dance.gif') 0 0 no-repeat;
+  width: 128px;
+  height: 128px;
+  animation: xPand 2s infinite;
+  position: absolute;
+  z-index: 2;
+}
+.to-the-left {
+  left: 48%;
+}
+.rip {
+  background: url('./rip.png') 0 0 no-repeat;
+  width: 128px;
+  height: 128px;
+  z-index: 3;
+  animation: slideUp 1.75s ease-in, xPand 2s;
+  position: absolute;
+}
+.spooky {
+  font-family: 'Rubik Wet Paint', cursive;
+  width: 900px;
+  font-size: 3em;
+  position: absolute;
+  z-index: 2;
+  color: purple;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  text-shadow: 2px 12px #222;
+  animation: waveIn 3s;
+}
